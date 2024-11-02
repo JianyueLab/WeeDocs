@@ -10,11 +10,11 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /bigFrontEnd/html/
+      text: 天码秋令营
+      link: /SkyCode/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/LYOfficial/WeeDocs
 ---
 
 <style>
