@@ -1,7 +1,7 @@
 // docs/.vitepress/config.js
 
 import { defineConfig } from 'vitepress'
-const base = "/WeeDocs/"; 
+//const base = "/WeeDocs/"; 
 export default {
   base,
     // 站点级选项
