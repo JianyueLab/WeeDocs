@@ -1,4 +1,6 @@
 // docs/.vitepress/config.js
+
+import { defineConfig } from 'vitepress'
 const base = "/WeeDocs/"; 
 export default {
   base,
@@ -11,6 +13,9 @@ export default {
     ],
   
     themeConfig: {
+      search: {
+        provider: 'local'
+      },
       nav: [
         
         {
@@ -45,6 +50,7 @@ export default {
         },
        
       },
+      lastUpdated: true,
       docFooter: {
         prev: "上一篇",
         next: "下一篇",
