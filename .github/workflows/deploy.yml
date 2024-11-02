@@ -28,6 +28,7 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# 官方配置
 jobs:
   # Build job
   build:
